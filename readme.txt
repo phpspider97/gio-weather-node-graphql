@@ -4,7 +4,7 @@ Client :
     Step 3 --->  http://localhost:3000
 
     Lifecycle : src/index.js --> src/app.js --> src/component/DisplayWeather.js --> if error ( src/component/ErrorBoundary )
-
+ 
 ==========================================
 
 Server :
