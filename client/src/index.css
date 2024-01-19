@@ -1,0 +1,171 @@
+body {
+  font-size: 14px;
+  background: linear-gradient(to right, rgba(0, 160, 253, 1) 0%, rgba(42, 42, 114, 1) 100%);
+  width: auto;
+  height: auto; 
+  font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+.flex-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  width: 800px;
+  height: 500px;
+  border-radius: 18px;
+  padding: 20px 20px;
+  /* display: flex;
+  justify-content: center;
+  align-self: center;
+  top: 30% */
+}
+
+.flex-container-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  width: 500px;
+  height: 300px;
+  border-radius: 18px;
+  padding: 20px 20px;
+  /* display: flex;
+  justify-content: center;
+  align-self: center;
+  top: 30% */
+}
+.mt-5 {
+  margin-top: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 30px;
+  width: 95%;
+  display: flex;
+}
+
+.right-side {
+  flex: 1;
+}
+
+.border-button {
+  background-color: white;
+  color: #008CBA;
+  border: 2px solid #008CBA;
+  padding: 6px 20px;
+}
+
+.fill-button {
+  background-color: #008CBA;
+  color: #ffffff;
+  border: 2px solid #008CBA;
+  padding: 6px 20px;
+}
+
+
+/* First Page Style  */
+
+.first-div { 
+  justify-content: inline;
+  flex-direction: column;
+  text-align: center;
+  margin: 20% 0;
+  min-height: 200px;
+}
+
+.first-div p {
+  font-size: 30px;
+  width: 65%;
+}
+
+.btn {
+  background: linear-gradient(to right, rgba(255, 221, 0, 1) 0%, rgba(251, 176, 52, 1) 100%);
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem; 
+  line-height: 1;
+  margin: 20px; 
+  text-decoration: none;
+  text-align: center;
+  width:150px;
+  height:43px;
+}
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.err-message{
+  color: red;
+  font-size: 23px;
+  text-align: center; 
+  padding:5px; 
+}
+
+.wind{
+  position: absolute;
+  right: 11px;
+  bottom: 37px;
+}
+.humidity{
+  position: absolute;
+  left: 11px;
+  bottom: 37px;
+}
+.location{
+  position: absolute;
+  left: 35%;
+  bottom: 20%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.temp{
+  position: absolute;
+  left: 43%;
+  bottom: 70%;
+}
+.condition{
+  position: absolute;
+  left: 33%;
+  bottom: 50%;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.image-container{
+  position: absolute;
+  left: 32%;
+  bottom: 30%;
+}
+.weatherImage{
+  width:300px;
+  height:300px;
+}
+.back-button{
+  font-size: 30px;
+  cursor: pointer; 
+}
+.condition-radio-div{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+.coordinate-input{
+  width: 25% !important; 
+  margin-left: 10px !important;
+}
+.coordinate-input-container{
+  display: inline;
+}

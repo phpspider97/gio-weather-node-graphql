@@ -1,0 +1,16 @@
+.App{
+  background-color: rgb(75, 103, 216);
+  width:100%;
+  height:100%;
+}
+.search-box{
+  margin-top: 50%;
+}
+.weather-main{
+  background-color: rgb(75, 103, 216);
+  width:100%;
+  height:100%;
+}
+.weather-inner{
+  border:1px dashed black
+}
